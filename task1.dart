@@ -114,7 +114,7 @@ void main() {
   //task1.4
   final myAccount = BankAccount(
     accountNumber: '12345678910',
-    accountHolderName: 'John doe',
+    accountHolderName: 'John Doe',
     initialBalance: 100.0,
   );
 
