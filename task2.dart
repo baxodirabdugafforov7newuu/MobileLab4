@@ -58,9 +58,9 @@ void main() {
 
   //task2.4
   print('------');
-  final adminUser = User(name: 'Alice', role: UserRole.admin);
-  final editorUser = User(name: 'Bob', role: UserRole.editor);
-  final guestUser = User(name: 'Charlie', role: UserRole.guest);
+  final adminUser = User(name: 'John', role: UserRole.admin);
+  final editorUser = User(name: 'Doe', role: UserRole.editor);
+  final guestUser = User(name: 'Role', role: UserRole.guest);
 
   print('${adminUser.name} (role: ${adminUser.role.name}) has edit permission: ${adminUser.hasEditPermission()}');
   print('${editorUser.name} (role: ${editorUser.role.name}) has edit permission: ${editorUser.hasEditPermission()}');
