@@ -117,8 +117,8 @@ void main() {
 
   //task3.5
   print("------");
-  final book = Book("The Dart Way", "B101", "G. Flutter");
-  final dvd = DVD("Dart Best Practices", "D202", "A. Developer");
+  final book = Book("The Flutter Way", "B201", "G. Flutter");
+  final dvd = DVD("Flutter Best Practices", "D302", "A. Developer");
 
   print(book.getDetails()); 
   print(dvd.getDetails());
