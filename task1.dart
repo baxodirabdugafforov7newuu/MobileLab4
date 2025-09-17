@@ -88,9 +88,9 @@ class Rectangle {
 void main() {
   //task1.2
   final myBook = Book(
-    title: 'Crime and Punishment',
-    author: 'Fyodor Dostoevskiy',
-    numberOfPages: 400,
+    title: 'Book Name',
+    author: 'Book Author',
+    numberOfPages: 160,
   );
 
   print('Book Title: ${myBook.title}');
@@ -100,9 +100,9 @@ void main() {
 
   //task1.3
   final student1 = Student(
-    name: 'Ruxshona Baymanova',
-    age: 18,
-    grades: [85.5, 90.0, 78.5, 92.0, 88.0],
+    name:'Baxodir Abdugafforov',
+    age: 20,
+    grades: [75.5, 83.0, 78.5, 72.0, 98.0],
   );
 
   final averageGrade = student1.calculateAverageGrade();
@@ -113,9 +113,9 @@ void main() {
 
   //task1.4
   final myAccount = BankAccount(
-    accountNumber: '12345678',
-    accountHolderName: 'John Doe',
-    initialBalance: 500.0,
+    accountNumber: '12345678910',
+    accountHolderName: 'John doe',
+    initialBalance: 100.0,
   );
 
   print('Account created for ${myAccount.accountHolderName} (${myAccount.accountNumber}) '
